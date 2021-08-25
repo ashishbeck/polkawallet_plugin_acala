@@ -21,7 +21,9 @@ dependencies:
   device_info: ^2.0.1
   graphql_flutter: ^5.0.0-nullsafety.5
   liquid_progress_indicator: ^0.3.2
-  polkawallet_sdk: ^0.2.5
+  polkawallet_sdk:
+    git:
+      url: https://github.com/ashishbeck/sdk.git
   polkawallet_ui:
 #     path: ../ui
    git:
