@@ -28,7 +28,7 @@ dependencies:
 #     path: ../ui
    git:
      url: https://github.com/ashishbeck/ui.git
-     ref: 39dedfb392bf9f809f7bbcaa82dc7fcbe3860c9b
+#      ref: 39dedfb392bf9f809f7bbcaa82dc7fcbe3860c9b
 
 # dependency_overrides:
 #   polkawallet_sdk:
