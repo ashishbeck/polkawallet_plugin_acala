@@ -89,7 +89,7 @@ class PluginAcala extends PolkawalletPlugin {
   final PluginBasicData basic;
 
   @override
-  List<NetworkParams> get nodeList {
+  Future<List<NetworkParams>> get nodeList async {
     return _randomList(node_list[basic.name])
         .map((e) => NetworkParams.fromJson(e))
         .toList();
